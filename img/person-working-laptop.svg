@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none" aria-labelledby="title desc" role="img">
+  <title>Person working on a laptop</title>
+  <desc>Illustration of a person sitting at a desk and working on a laptop.</desc>
+  <rect width="640" height="480" rx="24" fill="#f0f4ff"/>
+  <g opacity="0.95">
+    <rect x="96" y="304" width="448" height="24" rx="12" fill="#dbe3f4"/>
+    <rect x="112" y="240" width="416" height="64" rx="12" fill="#ffffff" stroke="#b6c0db" stroke-width="4"/>
+    <path d="M120 244h400v52H120z" fill="#e6edf9"/>
+    <rect x="184" y="256" width="272" height="32" rx="6" fill="#cdd6ec"/>
+    <path d="M112 248h28v40h-28z" fill="#bfc7db"/>
+    <path d="M500 248h28v40h-28z" fill="#bfc7db"/>
+  </g>
+  <g>
+    <circle cx="320" cy="128" r="64" fill="#f4d7b0"/>
+    <path d="M268 152c0-28 24-52 52-52s52 24 52 52v32h-104v-32z" fill="#f1b86b"/>
+    <path d="M260 176c-10 22-14 48-14 72h208c0-24-4-50-14-72h-180z" fill="#6b8bc6"/>
+    <path d="M238 248c-12 18-20 38-24 60-4 22-4 48 8 66h228c12-18 12-44 8-66-4-22-12-42-24-60H238z" fill="#5b79aa"/>
+    <path d="M296 318c0 18-12 32-28 32s-28-14-28-32 12-32 28-32 28 14 28 32z" fill="#f4d7b0"/>
+    <path d="M396 318c0 18-12 32-28 32s-28-14-28-32 12-32 28-32 28 14 28 32z" fill="#f4d7b0"/>
+    <path d="M284 154c0 6 8 10 16 10s16-4 16-10" stroke="#8c5e3b" stroke-width="8" stroke-linecap="round"/>
+    <path d="M292 188c-12-8-16-32-8-44" stroke="#8c5e3b" stroke-width="10" stroke-linecap="round"/>
+    <path d="M356 188c12-8 16-32 8-44" stroke="#8c5e3b" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="216" y="328" width="208" height="84" rx="20" fill="#293963"/>
+    <rect x="232" y="344" width="176" height="52" rx="10" fill="#1f2e53"/>
+    <rect x="264" y="360" width="112" height="8" rx="4" fill="#7ea1ff"/>
+    <rect x="292" y="380" width="56" height="6" rx="3" fill="#7ea1ff"/>
+    <path d="M236 412h168v16H236z" fill="#1f2e53"/>
+  </g>
+  <g>
+    <path d="M520 364c0-8-6-14-14-14H134c-8 0-14 6-14 14v20c0 8 6 14 14 14h372c8 0 14-6 14-14v-20z" fill="#dbe3f4"/>
+    <path d="M156 392h328v16H156z" fill="#c4cee4"/>
+  </g>
+  <g>
+    <rect x="452" y="96" width="88" height="24" rx="12" fill="#cdd6ec"/>
+    <circle cx="494" cy="110" r="4" fill="#7d8fb7"/>
+    <circle cx="514" cy="110" r="4" fill="#7d8fb7"/>
+    <path d="M472 132c0-12 10-22 22-22s22 10 22 22v4H472v-4z" fill="#dbe3f4"/>
+  </g>
+</svg>
