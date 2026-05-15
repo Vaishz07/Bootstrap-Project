@@ -12,7 +12,7 @@
     
     <div class="container">
 
-        <a href="#" class="navbar-brand text-warning">BootStrap</a>
+        <a href="#" class="navbar-brand text-warning text-uppercase">Techno Solutions</a>
 
         <button 
         class="navbar-toggler" 
@@ -31,10 +31,7 @@
                 </l1>
                 <l1 class="navbar-item">
                     <a href="#questions" class="nav-link text-warning">Questions</a>
-                </l1>
-                <l1 class="navbar-item">
-                    <a href="#instructions" class="nav-link text-warning">Instructions</a>
-                </l1>
+                </l1>                
             </ul>
         </div>
 
@@ -51,7 +48,7 @@
                  <p class="lead my-4">
                     Web Developer Coaching is a personalized learning approach that guides aspiring and experienced developers through the complexities of modern web development.
                  </p>
-                 <button class="btn btn-primary btn-lg">Start the process</button>
+                 <button class="btn btn-warning btn-lg">Start the process</button>
                 </div>
                    <img class="img-fluid  w-50 d-none d-sm-block"src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600" alt="">
             </div>
@@ -61,7 +58,7 @@
 
     <!--News letter-->
    
-    <section class="bg-primary text-light p-5">
+    <section class="bg-warning text-dark p-5">
       <div class="container">
         <div class="d-md-flex justify-content-between align-items-center">
           <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
@@ -88,12 +85,12 @@
                 <p class="card-text">
                  Virtual Classes offer a flexible and accessible way to learn web development from anywhere in the world, eliminating geographical barriers and allowing students to study at their own pace.
                 </p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="btn btn-warning">Read More</a>
               </div>
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-secondary text-light">
+            <div class="card bg-dark text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-person-square"></i>
@@ -102,7 +99,7 @@
                 <p class="card-text">
                   Hybrid Classes combine the best of in-person and virtual learning, providing a balanced approach to web development education that suits diverse needs. Students attend some sessions in a physical classroom for hands-on activities, group discussions, and direct mentorship, while others are conducted online for flexibility and accessibility.
                 </p>
-                <a href="#" class="btn btn-dark">Read More</a>
+                <a href="#" class="btn btn-warning">Read More</a>
               </div>
             </div>
           </div>
@@ -116,7 +113,7 @@
                 <p class="card-text">
                   In Person Classes provide a traditional learning environment where students can interact directly with instructors and peers, fostering a collaborative and immersive educational experience.
                 </p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="btn btn-warning">Read More</a>
               </div>
             </div>
           </div>
@@ -124,8 +121,182 @@
       </div>
     </section>
 
+    <!-- Learn -->
 
-  
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/fundamentals.svg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+              Master the essentials: syntax, data types, control flow, and problem-solving patterns to build real projects confidently
+            </p>
+            <p>
+              Learning the fundamentals of programming languages is the best way to build confidence and competence as a developer. By focusing on core concepts like syntax, data types, control flow, functions, and problem-solving patterns, you gain a strong foundation that makes it easier to learn new languages later. Practicing these basics helps you write clearer code, debug effectively, and understand how different languages approach the same tasks.
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Learn React</h2>
+            <p class="lead">
+              Master the fundamentals of React, including components, props, state, and hooks, to build dynamic and responsive user interfaces.
+            </p>
+            <p>
+              Learn how to manage component state and side effects using useState and useEffect: initialize and update local state with useState, derive UI from state, and keep effects (data fetching, timers, subscriptions) in useEffect with correct dependency arrays to avoid bugs. Learn when to lift state up to parent components and pass data via props versus keeping it local, and how to structure state for predictable updates (primitive vs. object/array patterns
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="img/react.svg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Where is your company located?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Our company is headquartered in San Francisco, California, with additional offices in New York, London, and Singapore. We serve clients across North America, Europe, and Asia-Pacific regions. Our central location in San Francisco allows us to stay at the forefront of technology and innovation while maintaining strong connections with our global client base.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                How much does it cost?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                The cost of our courses varies depending on the specific program and format. Please visit our website or contact our admissions team for detailed pricing information.
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                What do I need to Know?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                For this program you should have: a basic understanding of the
+                subject area, reliable internet access, and a willingness to
+                commit the stated weekly hours. The program typically runs for
+                the published duration and includes hands-on projects, weekly
+                assignments, instructor or mentor support, and a final
+                assessment. Materials and tools are provided or clearly listed
+                in the course syllabus. Successful completion earns a
+                certificate and prepares you for intermediate-level work or
+                further study in the field.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                How Do I sign up?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                To sign up: 1) Visit our Programs page and select the program you want. 2) Click "Enroll" and create an account with your email and a password (or sign in if you already have one). 3) Complete the enrollment form and choose any payment option if required. 4) Submit your registration — you'll receive a confirmation email with next steps and start dates.
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                Do you help me find a job?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Yes. We offer job placement assistance including resume review,
+                interview prep, employer connections, and ongoing career support
+                to help graduates find relevant roles.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
